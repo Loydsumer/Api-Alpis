@@ -141,7 +141,7 @@
 
             <% if(typeof err !='undefined' ){ %>
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    <strong> Error </strong>
+                    <strong> Gagal Wak😂 </strong>
                     <%= err %>.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
@@ -149,7 +149,7 @@
 
                 <% if( error_messages !="" ){ %>
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <strong> Error </strong>
+                        <strong> Gagal Wak😂 </strong>
                         <%= error_messages %>.
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
@@ -157,7 +157,7 @@
           
                     <% if( success_messages !="" ){ %>
                       <div class="alert alert-success alert-dismissible fade show" role="alert">
-                          <strong> Success</strong>
+                          <strong> Berhasil✅ </strong>
                           <%= success_messages %>.
                               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                       </div>
@@ -166,22 +166,22 @@
                     <form action="/signup" method="POST">
                         <input type="hidden" name="_csrf" value="<%= csrfToken %>">
                         <div class="mb-3">
-                            <label for="email">Enter Your Email</label>
+                            <label for="email">Masukin Email Elu</label>
                             <input type="email" class="form-control form-control-lg" name="email" id="email"
                                 autocomplete="off" placeholder="Email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="username">Choose A Username</label>
+                            <label for="username">Pilih Username</label>
                             <input type="text" class="form-control form-control-lg" name="username" id="username"
                                 autocomplete="off" placeholder="Username" required>
                         </div>
                         <div class="mb-3">
-                            <label for="password">Choose A Password</label>
+                            <label for="password">Masukin Password Elu</label>
                             <input type="password" class="form-control form-control-lg" name="password" id="password"
                             autocomplete="off" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" onkeyup='check();' required>
                         </div>
                         <div class="mb-3">
-                            <label for="confirmpassword">Confirm Your Password</label>
+                            <label for="confirmpassword">Konfirmasi Password Elu</label>
                             <input type="password" class="form-control form-control-lg" name="confirmpassword"
                                 id="confirmpassword" autocomplete="off" placeholder="Confirm Password"  onkeyup='check();' required>
                         </div>
@@ -201,7 +201,7 @@
                             <input type="submit" class="btn btn-lg btn-outline-primary" value="Register">
                
                         </div>
-                        <p>Already Registered ? <a class="card-link" href="/login">LOGIN Here</a> </p>
+                        <p>Sudah Terdaftar? <a class="card-link" href="/login">Login Disini</a> </p>
                     </form>
         </div>
     </div>
