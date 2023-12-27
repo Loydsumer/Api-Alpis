@@ -19,7 +19,7 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-creator = '乂𝘼𝙡𝙞𝙥乂' // Nama 
+creator = 'NDApi By AndhikaGG' // Nama 
 port = 8080 //port host
 LimitApikey = 200 // Limit Apikey default
 
@@ -35,7 +35,7 @@ servicesmtp = 'Gmail'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 lim
 sendemail = process.env.sendemail //Email SMTP
 fromsendemail = process.env.fromsendemail // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
 sendpwmail = process.env.sendpwmail // Password Email SMTP
-domain = 'alpis.eu.org'// domain website tanpa http or https
+domain = 'ndgg.my.id'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
@@ -58,54 +58,54 @@ loghandler = {
     error: {
         status: false,
         code: 503,
-        message: '[!] Service Unavaible Or Error',
+        message: '[!] Layanan Tidak Tersedia Atau Error',
         maintanied_by: `${creator}`
     },
     noturl: {
     	status: false,
     	code: 403,
-    	message: '[!] Forbiden or Error, Invlid url',
+    	message: '[!] Terlarang atau Kesalahan, URL tidak valid',
     	maintanied_by: `${creator}`
     },
     notfound: {
     	status: false,
     	code: 404,
-    	message: '[!] Forbiden or Error, Not Found',
+    	message: '[!] Terlarang atau Kesalahan, Tidak ditemukan',
     	maintanied_by: `${creator}`
     },
     notid: {
     	status: false,
     	code: 404,
-    	message: '[!] Forbiden or Error, Invalid Id or Zone',
+    	message: '[!] Terlarang atau Kesalahan, Id atau Zona Tidak Valid',
     	maintanied_by: `${creator}`
     },
     redy: {
     	status: false,
     	code: 403,
-    	message: '[!] Forbiden or Error, Alias ​​already in use',
+    	message: '[!] Terlarang atau Kesalahan, Alias ini Sudah Digunakan',
     	maintanied_by: `${creator}`
     },
     emoji: {
 	    status: false,
 	    code: 403,
-	    message: '[!] Forbiden or Error, Emoji not Found',
+	    message: '[!] Terlarang atau Kesalahan, Emoji tidak Ditemukan',
 	    maintanied_by: `${creator}`
 	},
     instgram: {
 	    status: false,
 	    code: 403,
-	    message: '[!] Forbiden or Error, Username tidak wujud atau account private',
+	    message: '[!] Terlarang atau Kesalahan, Username tidak Tidak Ada atau Aku Private',
 	    maintanied_by: `${creator}`
    },
     register: {
 	    status: false,
 	    code: 403,
-	    message: '[!] Please Register First',
+	    message: '[!] Silakan Daftar Terlebih Dahulu',
   },
    verify: {
 	    status: false,
 	    code: 403,
-	    message: '[!] Please Verify Email',
+	    message: '[!] Harap Verifikasi Email',
 }
 
 }
